@@ -1,0 +1,16 @@
+torch>=2.0.0
+transformers>=4.30.0
+numpy>=1.24.0
+PyQt6>=6.4.0
+sounddevice>=0.4.6
+openai-whisper
+seaborn>=0.12.0
+scikit-learn>=1.2.0
+tensorflow
+pandas>=2.0.0
+matplotlib>=3.7.0
+accelerate
+tf-keras
+datasets>=2.12.0
+whisper>=1.1.0
+tensorboard>=2.12.0 

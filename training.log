@@ -1,0 +1,65 @@
+2025-03-21 15:09:19,028 - INFO - Starting training process...
+2025-03-21 15:09:19,028 - INFO - Loading and preprocessing data...
+2025-03-21 15:09:19,028 - INFO - Loading dataset...
+2025-03-21 15:09:19,031 - INFO - 
+Initial class distribution:
+2025-03-21 15:09:19,032 - INFO - use_of_force_level
+0      1
+1    354
+2    174
+3    113
+4     57
+5     74
+Name: count, dtype: int64
+2025-03-21 15:09:19,037 - INFO - 
+Dataset size after cleaning: 615
+2025-03-21 15:09:19,037 - INFO - 
+Final class distribution:
+2025-03-21 15:09:19,038 - INFO - use_of_force_level
+1    266
+2    136
+3    103
+4     48
+5     62
+Name: count, dtype: int64
+2025-03-21 15:09:19,038 - INFO - 
+Sample texts for each force level:
+2025-03-21 15:09:19,038 - INFO - 
+Force Level 1 samples:
+2025-03-21 15:09:19,038 - INFO - - driver: appreciate that. i'll get it looked at.
+2025-03-21 15:09:19,038 - INFO - - no officer, im completely sober. just heading home from work.
+2025-03-21 15:09:19,039 - INFO - 
+Force Level 2 samples:
+2025-03-21 15:09:19,039 - INFO - - make it quick, will you?
+2025-03-21 15:09:19,039 - INFO - - let's just keep this respectful. i'll run your info quickly and get you on your way.
+2025-03-21 15:09:19,039 - INFO - 
+Force Level 3 samples:
+2025-03-21 15:09:19,039 - INFO - - get his arm behind his back right now
+2025-03-21 15:09:19,039 - INFO - - you're about to fucking get sprayed again if you keep kicking the window.
+2025-03-21 15:09:19,039 - INFO - 
+Force Level 4 samples:
+2025-03-21 15:09:19,039 - INFO - - i got a tazer right here
+2025-03-21 15:09:19,039 - INFO - - i'll resist all i want! you're not arresting me!
+2025-03-21 15:09:19,040 - INFO - 
+Force Level 5 samples:
+2025-03-21 15:09:19,040 - INFO - - its bleeding a lot
+2025-03-21 15:09:19,040 - INFO - - drop the gun!
+2025-03-21 15:09:19,584 - INFO - Generating additional features from text...
+2025-03-21 15:09:23,261 - INFO - Tokenizing texts...
+2025-03-21 15:09:23,281 - INFO - Train size: 522, Validation size: 93
+2025-03-21 15:09:23,285 - INFO - Loaded 522 training examples and 93 validation examples
+2025-03-21 15:09:23,285 - INFO - Initializing model...
+2025-03-21 15:09:23,576 - INFO - Model initialized successfully
+2025-03-21 15:09:23,730 - WARNING - /Users/urai/Library/Python/3.9/lib/python/site-packages/transformers/training_args.py:1594: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+
+2025-03-21 15:09:23,739 - INFO - Setting up trainer...
+2025-03-21 15:09:23,739 - WARNING - /Users/urai/Desktop/use_of_force_demo/train_model.py:372: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `CustomTrainer.__init__`. Use `processing_class` instead.
+  super().__init__(*args, **kwargs)
+
+2025-03-21 15:09:24,796 - INFO - Trainer setup complete
+2025-03-21 15:09:24,796 - INFO - Beginning training...
+2025-03-21 15:21:29,250 - WARNING - /Users/urai/Library/Python/3.9/lib/python/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-03-21 15:23:18,155 - INFO - Training completed successfully
